@@ -1,0 +1,99 @@
+.el-table .warning-row {
+    background: #E8F5FE
+}
+
+.el-table .success-row {
+    background: #D1EBFC;
+}
+
+.el-table th {
+    background: #1A96F1;
+    color: #fff;
+    height: 100%;
+}
+
+.el-table .cell {
+    line-height: 16px;
+    font-size: 12px;
+}
+
+.el-input__inner {
+    height: 30px;
+    font-size: 12px;
+}
+
+.el-range-editor.el-input__inner {
+    padding: 0
+}
+
+.el-date-editor .el-range-input {
+    height: 85%;
+}
+
+.el-input__icon {
+    line-height: 30px;
+}
+
+.el-table th {
+    font-weight: 700;
+    text-align: center;
+}
+
+.el-button--primary {
+    font-size: 12px;
+}
+
+.el-radio-button:first-child:last-child .el-radio-button__inner {
+    height: 32px;
+}
+
+.el-slider__runway {
+    height: 4px;
+}
+
+.el-slider__bar {
+    height: 4px;
+}
+
+.el-table td {
+    padding: 0;
+    height: 38px;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 12px;
+}
+
+.el-table .warning-row {
+    background: #E8F5FE;
+}
+
+.el-table--border {
+    border: none;
+}
+
+.el-table::before {
+    height: 0;
+}
+
+.el-table::after {
+    width: 0;
+}
+
+.el-table__expanded-cell {
+    border-left: 1px solid #EBEEF5;
+}
+
+.el-tabs__nav-wrap::after {
+    height: 1px;
+}
+
+#tab-first,#tab-second,#tab-third {
+    box-shadow: none;
+}
+.el-pagination{
+    text-align: center;
+}
+ .el-table__body-wrapper{
+    overflow-y: auto;
+  }

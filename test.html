@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+  <script>
+    //传递函数作为回调，函数作为参数传递
+    function fn(a,b,callback1){
+      var num=Math.ceil(Math.random()*(a-b)+b);
+      callback1(num);     //传递结果
+    }
+
+    fn(10,20,function(num){
+      console.log("随机数"+num);
+    });
+  </script>
+</head>
+<body>
+
+</body>
+</html>

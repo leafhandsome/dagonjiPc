@@ -1,0 +1,141 @@
+{
+  "result": true,
+  "operateCode": 0,
+  "msg": null,
+  "data": {
+    "showTypeList": [{
+      "imgUrl": "http://shengshicai.f3322.net:9096/upload/images/201711/e080f3ea-6c4b-4e7c-a482-808b7346c8fd.png",
+      "typeName": "官方时时彩",
+      "id":"1",
+      "gameRoomList": [{
+        "gameRoomId": 1,
+        "gameRoomName": "重庆时时彩",
+        "imgUrl": "http://shengshicai.f3322.net:9096/upload/images/201712/0d4ba029-f783-4410-9978-19c7ba5c3fb2.png",
+        "gameType": 1
+      },
+        {
+          "gameRoomId": 3,
+          "gameRoomName": "新疆时时彩",
+          "imgUrl": "http://shengshicai.f3322.net:9096/upload/images/201712/1d2bd4c4-a2c3-4789-8793-b360400abd19.png",
+          "gameType": 3
+        },
+        {
+          "gameRoomId": 4,
+          "gameRoomName": "黑龙江时时彩",
+          "imgUrl": "http://shengshicai.f3322.net:9096/upload/images/201712/fc9841e5-500f-4bc9-8527-fa07e1755537.png",
+          "gameType": 4
+        },
+        {
+          "gameRoomId": 2,
+          "gameRoomName": "天津时时彩",
+          "imgUrl": "http://shengshicai.f3322.net:9096/upload/images/201712/75e57e6c-58fa-463a-b989-d6e0f1770a1b.png",
+          "gameType": 2
+        },
+        {
+          "gameRoomId": 8,
+          "gameRoomName": "腾讯分分彩",
+          "imgUrl": "http://shengshicai.f3322.net:9096/upload/images/201712/4b26ee45-5a22-41c6-9088-04fbf7a0d9bf.png",
+          "gameType": 7
+        }]
+    },
+      {
+        "imgUrl": "http://shengshicai.f3322.net:9096/upload/images/201712/e28c7aa0-af0d-4f74-82fb-c757776dfcfe.png",
+        "typeName": "低频彩",
+        "id":"2",
+        "gameRoomList": [{
+          "gameRoomId": 6,
+          "gameRoomName": "七星彩",
+          "imgUrl": "http://shengshicai.f3322.net:9096/upload/images/201712/20f8c2f1-23a2-4874-a6a7-35940de8e323.png",
+          "gameType": 6
+        },
+          {
+            "gameRoomId": 5,
+            "gameRoomName": "排列五",
+            "imgUrl": "http://shengshicai.f3322.net:9096/upload/images/201712/2fb51e6b-c9a7-4c75-8c18-e2ec3440e215.png",
+            "gameType": 5
+          }]
+      },
+      {
+        "imgUrl": "http://shengshicai.f3322.net:9096/upload/images/201712/00b306d5-187a-4bd5-a968-fa13e70467c8.png",
+        "typeName": "快三",
+        "id":"3",
+        "gameRoomList": [{
+          "gameRoomId": 9,
+          "gameRoomName": "北京快三",
+          "imgUrl": "http://shengshicai.f3322.net:9096/upload/images/201712/46377aff-342c-4cd3-a3d9-eb50f9e87e6e.png",
+          "gameType": 101
+        },
+          {
+            "gameRoomId": 13,
+            "gameRoomName": "北京骰宝",
+            "imgUrl": "http://shengshicai.f3322.net:9096/upload/images/201712/39f4c75c-c3e8-47e6-948b-db2e18166e9c.png",
+            "gameType": 201
+          },
+          {
+            "gameRoomId": 10,
+            "gameRoomName": "吉林快三",
+            "imgUrl": "http://shengshicai.f3322.net:9096/upload/images/201712/002feaf6-73aa-43a9-9597-c953ed07ee49.png",
+            "gameType": 102
+          },
+          {
+            "gameRoomId": 16,
+            "gameRoomName": "吉林骰宝",
+            "imgUrl": "http://shengshicai.f3322.net:9096/upload/images/201712/ab1effe7-d3c1-42f4-b1c3-f7305a826e2e.png",
+            "gameType": 202
+          },
+          {
+            "gameRoomId": 11,
+            "gameRoomName": "广西快三",
+            "imgUrl": "http://shengshicai.f3322.net:9096/upload/images/201712/e5f5a45c-8962-4d03-a298-cce1cfd5e455.png",
+            "gameType": 105
+          },
+          {
+            "gameRoomId": 17,
+            "gameRoomName": "内蒙古快三",
+            "imgUrl": "http://shengshicai.f3322.net:9096/upload/images/201801/6df6990d-7be2-4e15-8f94-f7f6a7846e37.png",
+            "gameType": 106
+          },
+          {
+            "gameRoomId": 18,
+            "gameRoomName": "内蒙古骰宝",
+            "imgUrl": "http://shengshicai.f3322.net:9096/upload/images/201801/fc37cb51-87b7-4add-93eb-29bbcbc50dde.png",
+            "gameType": 206
+          },
+          {
+            "gameRoomId": 24,
+            "gameRoomName": "广西骰宝",
+            "imgUrl": "http://shengshicai.f3322.net:9096/upload/images/201801/75d07616-84ef-4148-9746-c7b5bd02e1ca.png",
+            "gameType": 205
+          }]
+      },
+      {
+        "imgUrl": "http://shengshicai.f3322.net:9096/upload/images/201712/127d057a-991e-4351-8199-5545644f6e0b.png",
+        "typeName": "其它",
+        "id":"4",
+        "gameRoomList": [{
+          "gameRoomId": 15,
+          "gameRoomName": "北京赛车",
+          "imgUrl": "http://shengshicai.f3322.net:9096/upload/images/201712/520766d9-dcc9-4faa-8baa-cd5b386d5692.png",
+          "gameType": 301
+        },
+          {
+            "gameRoomId": 19,
+            "gameRoomName": "广东快乐十分",
+            "imgUrl": "http://shengshicai.f3322.net:9096/upload/images/201801/4987ae11-d393-40c5-9865-4268eebac7b6.png",
+            "gameType": 401
+          },
+          {
+            "gameRoomId": 22,
+            "gameRoomName": "湖南快乐十分",
+            "imgUrl": "http://shengshicai.f3322.net:9096/upload/images/201801/887a270a-6eb5-4d08-848b-6fc40020f3a9.png",
+            "gameType": 402
+          },
+          {
+            "gameRoomId": 23,
+            "gameRoomName": "重庆快乐十分",
+            "imgUrl": "http://shengshicai.f3322.net:9096/upload/images/201801/e75d6337-8a80-4d25-9ad0-58e094f1daed.png",
+            "gameType": 403
+          }]
+      }]
+  }
+}

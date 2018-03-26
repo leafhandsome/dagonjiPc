@@ -1,0 +1,305 @@
+@charset "utf-8";
+/*html5*/
+article,aside,dialog,footer,header,section,footer,nav,figure,menu{display:block;}
+/*公共*/
+body {margin:0; padding:0; font-size:14px;font-family: '微软雅黑', Helvetica, Arial,sans-serif; color:#333;background-color:#f7f7f7;}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;}
+ol,ul {list-style:none;padding:0; margin:0;}
+li{list-style-type:none;}
+img{vertical-align:middle;border:0;}
+h1,h2,h3,h4,h5,h6{font-size:inherit; font-weight:normal;}
+address,cite,code,em,th,i{font-weight:normal; font-style:normal;}
+i, b{font-weight: normal;}
+input{border:none;}
+input:focus{outline: 0;}
+
+a{
+  display: inline-block;
+  text-decoration: none;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #aaa;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #aaa;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #aaa;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #aaa;
+}
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+  background-color: #ddd;
+  background-image: none;
+  color: #dad9d9;
+}
+/*滚动条样式*/
+
+::-webkit-scrollbar {/*滚动条整体样式*/
+  width: 10px;     /*高宽分别对应横竖滚动条的尺寸*/
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 6px rgba(207,207,207,1);
+  background: rgba(207,207,207,1);
+}
+::-webkit-scrollbar-track {/*滚动条里面轨道*/
+  -webkit-box-shadow: inset 0 0 6px rgba(238,238,238,1);
+  border-radius: 0;
+  background: rgba(238,238,238,1);
+}
+.clearfix{ *zoom:1;}
+.clearFloat{clear:both;}
+.clearfix::after{content:'';display:block;clear:both;height:0;overflow:hidden;}
+.float_l,.fl{float:left;}
+.float_r,.fr{float:right;}
+.disnone{display:none;}
+.ct,.text_center{ text-align: center;}
+.blue1{color:#2785FF;font-size: 14px;}
+/*字体*/
+.fc9{color:#999;}
+.fc6{color:#666;}
+.fc3{color:#333;}
+.fs14{font-size: 14px;}
+.red{color:#ff0000;}
+.gray{color:#b3b3b3;}
+.green{color:#5dd75e;}
+.blue{color:#4c9ddc;}
+.yellow{color:#eda700;}
+.orange{color:#f7ba4a;}
+.fwb{font-weight: bold;}
+/*边距*/
+.pr5{padding-right:5px;}
+.pr10{padding-right:12px;}
+.pr15{padding-right:15px;}
+.pt50{padding-top:50px;}
+.pt10{padding-top:10px;}
+.pl20{padding-left:20px;}
+.pl30{padding-left:30px;}
+.pr20{padding-right:20px;}
+.pt20{padding-top:20px;}
+.pb20{padding-bottom:20px;}
+.mt10{margin-top:10px;}
+.mt15{margin-top:15px;}
+.mt50{margin-top:50px;}
+.mb15{margin-bottom:15px;}
+.mb50{margin-bottom:50px;}
+.mr10{margin-right:10px;}
+.mr15{margin-right:15px;}
+.mr25{margin-right:25px;}
+.mt20{margin-top:20px;}
+.mb20{margin-bottom:20px;}
+.ml20{margin-left:20px;}
+.mr20{margin-right:20px;}
+.mg20{margin:0 20px;}
+.pdtb25{padding:25px 0;}
+.ml50{margin-left:50px;}
+.ml10{margin-left:10px;}
+
+
+/*container*/
+.dgj-container-fluid{
+  width: 100%;
+  min-width: 1200px;
+}
+.dgj-container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/*盒子*/
+.bz{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*禁止用户选中*/
+.user-no-select{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/*右侧微信二维码*/
+.indexWxService{
+  width: 150px;
+  height: 150px;
+}
+.indexWxService img{
+  width: 150px;
+  height: 150px;
+}
+
+.el-message>p{
+  display: inline-block;
+}
+
+.isdaili{
+  display: inline-block;
+  width: 27px;
+  height: 12px;
+  background: url('~assets/img/index/daili.png') no-repeat;
+}
+.truedaili{
+  display: inline-block;
+  position: relative;
+  width: 54px;
+  height: 26px;
+  line-height: 24px;
+  text-align: center;
+  background-color: #1a95f2;
+  color:#ffffff;
+  font-size: 18px;
+  transform:scale(0.5);
+  -ms-transform:scale(0.5); 	/* IE 9 */
+  -moz-transform:scale(0.5); 	/* Firefox */
+  -webkit-transform:scale(0.5); /* Safari 和 Chrome */
+  -o-transform:scale(0.5);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.selectp .el-select{
+  width: 358px;
+}
+.sprite {
+  width: 40px;
+  height: 40px;
+  line-height:40px;
+  text-align: center;
+  display: inline-block;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-image: url('../assets/img/lottery/noselball.png');
+  background-size: 100% 100%;
+  color: #5d6267;
+  font-size: 20px;
+}
+
+.items-ball:first-child .el-checkbox-button__inner{
+  border: none;
+}
+.items-balls>.el-checkbox-button{
+  margin:4px 9px;
+  width: 42px;
+  height: 42px;
+}
+.items-ball>.el-checkbox-button__inner{
+  padding: 0;
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  border: none;
+  background-color: #ffffff;
+  background-image: url('../assets/img/lottery/noselball.png');
+  background-size: 100% 100%;
+  color: #5d6267;
+  font-size:18px;
+}
+
+.items-ball.is-checked>.el-checkbox-button__inner,.items-ball>.el-checkbox-button__inner:hover{
+  border: none;
+  box-shadow:none;
+  background-color: #ffffff;
+
+}
+.items-ball.is-checked>.el-checkbox-button__inner p,.items-ball>.el-checkbox-button__inner p:hover{
+  background-image: url('../assets/img/lottery/selball.png');
+  background-size: 100% 100%;
+  color: #ffffff;
+}
+
+.items-btn>.el-radio-button__inner{
+  padding: 0;
+  width: 38px;
+  height: 26px;
+  line-height: 26px;
+  border-radius: 1px;
+}
+
+.items-btn.is-active>.el-radio-button__inner{
+  background:none;
+  border: 1px solid #dcdfe6;
+  color: #43484A;
+  box-shadow:none;
+}
+.el-popover{
+  padding: 0;
+}
+.el-tooltip__popper{
+  max-width: 950px;
+}
+.plays-one .el-tabs__header{
+  padding: 0 20px;
+}
+.playsMsg >.el-button{
+  text-align: left;
+}
+
+/*走势图*/
+.trend-t-left .el-select{
+  width: 250px;
+  height: 40px;
+}
+.trend-select .el-select-dropdown__item.is-disabled{
+  color:#c0c4cc;
+}
+.trend-t-left .el-input__inner{
+  background-color: #409EFF;
+  height: 40px;
+  font-size: 18px;
+  font-weight: bold;
+  color:#fff;
+}
+.trend-t-left .el-select .el-input .el-select__caret{
+  color:#ffffff;
+}
+.trend-t-right .el-button--primary{
+  font-size: 14px;
+}
+
+/*历史记录*/
+.lu-popoper{
+  padding: 10px;
+}
+.lu-popoper>p{
+  line-height: 25px;
+}
+
+.opac-enter-active,.opac-leave-active {
+  transition: all 0.3s ease;
+}
+.opac-enter,.opac-leave-active {
+  opacity: 0;
+  transform:translateY(5px);
+}
+.left-enter-active,.left-leave-active {
+  opacity: 1;
+  transition: all 1.2s;
+}
+.left-enter,.left-leave-active {
+  opacity: 0;
+  transform:translateX(-100%);
+}
+
+
+.plays-one .is-active{
+  font-weight: 800;
+}
+.plays-one .el-tabs__nav-wrap::after{
+  height: 1px;
+}
+.sidebar .el-menu-item.is-active{
+  font-weight: 800;
+}
